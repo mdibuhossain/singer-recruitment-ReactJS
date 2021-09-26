@@ -22,6 +22,7 @@ const Cart = (props) => {
                 {
                     cart.map(singer => <Singerlist key={singer._id} singer={singer}></Singerlist>)
                 }
+                <button onClick={props.purchasedHandler} className="btn btn-danger">Purchased</button>
             </div>
         </div>
     );
