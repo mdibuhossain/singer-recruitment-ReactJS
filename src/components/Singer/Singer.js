@@ -1,8 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './Singer.css';
 import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faCartArrowDown } from '@fortawesome/free-solid-svg-icons';
+import './Singer.css';
 
 const FBicon = <FontAwesomeIcon icon={faFacebookSquare} />
 const Instaicon = <FontAwesomeIcon icon={faInstagram} />

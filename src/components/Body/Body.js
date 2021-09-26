@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Singer from '../Singer/Singer';
+import { addToDb, getStoredCart } from '../../utilities/fakedb';
 import './Body.css';
 
 const Body = () => {
@@ -12,6 +13,19 @@ const Body = () => {
             .then(res => res.json())
             .then(data => setSingers(data));
     }, []);
+
+    useEffect(() => {
+        if (singers.length) {
+            const savedData = getStoredCart();
+            const newData = [];
+            for (const id in savedData) {
+                const locateData = singers.find(singer => singer._id === id);
+                newData.push(locateData);
+            }
+            setCart(newData);
+        }
+    }, [singers]);
+
     const hireSingerHandler = (singer) => {
         const findSinger = cart.find(tmpSinger => tmpSinger._id === singer._id);
         if (!findSinger) {
@@ -20,6 +34,7 @@ const Body = () => {
             setCart(newCart);
         }
         setCounter(counter + 1);
+        addToDb(singer._id);
     };
     return (
         <div className="container">
