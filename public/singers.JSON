@@ -1,0 +1,158 @@
+[
+    {
+        "_id": "614f621fcbde1bcbad2338a3",
+        "name": "Taylor Swift",
+        "age": 31,
+        "salary": 12500000,
+        "image": "https://static.india.com/wp-content/uploads/2016/03/1163.jpg",
+        "gender": "female",
+        "country": "USA",
+        "social": {
+            "instagram": "https://www.instagram.com/taylorswift/",
+            "facebook": "https://www.facebook.com/TaylorSwift"
+        }
+    },
+    {
+        "_id": "614f621ff1ad3ffa143f8ac8",
+        "name": "Justin Bieber",
+        "age": 27,
+        "salary": 6650000,
+        "image": "https://www.biography.com/.image/t_share/MTM2OTI2NTY2Mjg5NTE2MTI5/justin_bieber_2015_photo_courtesy_dfree_shutterstock_348418241_croppedjpg.jpg",
+        "gender": "male",
+        "country": "Canada",
+        "social": {
+            "instagram": "https://www.instagram.com/justinbieber/",
+            "facebook": "https://www.facebook.com/JustinBieber"
+        }
+    },
+    {
+        "_id": "614f621f2dc4c96179249b60",
+        "name": "Ariana Grande",
+        "age": 28,
+        "salary": 15500000,
+        "image": "https://www.geo.tv/assets/uploads/updates/2021-08-31/367985_3616065_updates.jpg",
+        "gender": "female",
+        "country": "USA",
+        "social": {
+            "instagram": "https://www.instagram.com/arianagrande/",
+            "facebook": "https://www.facebook.com/arianagrande"
+        }
+    },
+    {
+        "_id": "614f621fcdb52f86cbbff3b6",
+        "name": "Ed Sheeran",
+        "age": 30,
+        "salary": 16666666,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg",
+        "gender": "male",
+        "country": "UK",
+        "social": {
+            "instagram": "https://www.instagram.com/teddysphotos/",
+            "facebook": "https://www.facebook.com/EdSheeranMusic"
+        }
+    },
+    {
+        "_id": "614f621f7a55e262aa2b0245",
+        "name": "Adele",
+        "age": 33,
+        "salary": 10000000,
+        "image": "https://filmdaily.co/wp-content/uploads/2021/01/adele-lede.jpg",
+        "gender": "female",
+        "country": "UK",
+        "social": {
+            "instagram": "https://www.instagram.com/adele/",
+            "facebook": "https://www.facebook.com/adele"
+        }
+    },
+    {
+        "_id": "614f621f11a5279fd2d5e0f0",
+        "name": "Drake",
+        "age": 34,
+        "salary": 5833333,
+        "image": "https://www.stereofox.com/wp-content/uploads/2016/02/drake-artist-profile.jpg",
+        "gender": "male",
+        "country": "Canada",
+        "social": {
+            "instagram": "https://www.instagram.com/champagnepapi/",
+            "facebook": "https://www.facebook.com/Drake"
+        }
+    },
+    {
+        "_id": "614f621faacaf6d3657737bd",
+        "name": "Charlie Puth",
+        "age": 29,
+        "salary": 250000,
+        "image": "https://static.qobuz.com/images/artists/covers/medium/bb9ed455cb15462c76c13422b9d1c953.jpg",
+        "gender": "male",
+        "country": "USA",
+        "social": {
+            "instagram": "https://www.instagram.com/charlieputh/",
+            "facebook": "https://www.facebook.com/charlieputh"
+        }
+    },
+    {
+        "_id": "614f621f690acf4f75871b0b",
+        "name": "Selena Gomez",
+        "age": 29,
+        "salary": 850000,
+        "image": "https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/selena_gomez_disney.jpeg",
+        "gender": "female",
+        "country": "USA",
+        "social": {
+            "instagram": "https://www.instagram.com/selenagomez/",
+            "facebook": "https://www.facebook.com/Selena"
+        }
+    },
+    {
+        "_id": "614f621f3998d57cd0719245",
+        "name": "Pitbull",
+        "age": 40,
+        "salary": 9000000,
+        "image": "https://i.scdn.co/image/1353990534aef10c946cf3a47865ac22471be5c4",
+        "gender": "male",
+        "country": "USA",
+        "social": {
+            "instagram": "https://www.instagram.com/pitbull/",
+            "facebook": "https://www.facebook.com/pitbull"
+        }
+    },
+    {
+        "_id": "614f621f8ac54839b69c1b2f",
+        "name": "Shakira",
+        "age": 44,
+        "salary": 7500000,
+        "image": "https://i1.sndcdn.com/avatars-000754019632-3ewkg8-t500x500.jpg",
+        "gender": "female",
+        "country": "Colombia",
+        "social": {
+            "instagram": "https://www.instagram.com/shakira/",
+            "facebook": "https://www.facebook.com/shakira"
+        }
+    },
+    {
+        "_id": "614f621fd78563e8a89fb282",
+        "name": "Eminem",
+        "age": 48,
+        "salary": 19000000,
+        "image": "https://www.biography.com/.image/t_share/MTQ3NjM5MTEzMTc5MjEwODI2/eminem_photo_by_dave_j_hogan_getty_images_entertainment_getty_187596325.jpg",
+        "gender": "male",
+        "country": "USA",
+        "social": {
+            "instagram": "https://www.instagram.com/eminem/",
+            "facebook": "https://www.facebook.com/eminem"
+        }
+    },
+    {
+        "_id": "614f621fc2999548453e027d",
+        "name": "Wiz Khalifa",
+        "age": 34,
+        "salary": 1400000,
+        "image": "https://m.media-amazon.com/images/M/MV5BMTljYTgxYjYtMTI1OC00MDgzLWEzNzAtNjFkMjEzYWE5Y2FkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg",
+        "gender": "male",
+        "country": "USA",
+        "social": {
+            "instagram": "https://www.instagram.com/wizkhalifa/",
+            "facebook": "https://www.facebook.com/wizkhalifa"
+        }
+    }
+]
