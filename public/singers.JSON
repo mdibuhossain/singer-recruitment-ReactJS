@@ -154,5 +154,83 @@
             "instagram": "https://www.instagram.com/wizkhalifa/",
             "facebook": "https://www.facebook.com/wizkhalifa"
         }
+    },
+    {
+        "_id": "614f621fc2999548453e127d",
+        "name": "Badshah",
+        "age": 35,
+        "salary": 200000,
+        "image": "https://www.koimoi.com/wp-content/new-galleries/2021/07/badshah-i-dont-work-for-stardom-001.jpg",
+        "gender": "male",
+        "country": "India",
+        "social": {
+            "instagram": "https://www.instagram.com/badboyshah/",
+            "facebook": "https://www.facebook.com/OfficialBadshah"
+        }
+    },
+    {
+        "_id": "614f621fc2999548453e227d",
+        "name": "Honey Singh",
+        "age": 38,
+        "salary": 1200000,
+        "image": "https://www.filmibeat.com/img/popcorn/profile_photos/honey-singh-20140110100011-29570.jpg",
+        "gender": "male",
+        "country": "India",
+        "social": {
+            "instagram": "https://www.instagram.com/yoyohoneysingh/",
+            "facebook": "https://www.facebook.com/YOYOhoneysingh"
+        }
+    },
+    {
+        "_id": "614f621fc2999548453e217d",
+        "name": "Arijit Singh",
+        "age": 34,
+        "salary": 2000000,
+        "image": "https://in.bmscdn.com/iedb/artist/images/website/poster/large/arijit-singh-1048083-24-03-2017-18-02-00.jpg",
+        "gender": "male",
+        "country": "India",
+        "social": {
+            "instagram": "https://www.instagram.com/arijitsingh/",
+            "facebook": "https://www.facebook.com/ArijitSingh"
+        }
+    },
+    {
+        "_id": "614f621fc2999548453e247d",
+        "name": "Chris Brown",
+        "age": 34,
+        "salary": 2900000,
+        "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2019%2F01%2Fchris-brown.jpg&q=85",
+        "gender": "male",
+        "country": "USA",
+        "social": {
+            "instagram": "https://www.instagram.com/chrisbrownofficial/",
+            "facebook": "https://www.facebook.com/chrisbrown"
+        }
+    },
+    {
+        "_id": "614f621fc2999548463e247d",
+        "name": "Billie Eilish",
+        "age": 19,
+        "salary": 3600000,
+        "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202106/Billie-Eilish_1200x768.jpeg?GHxyITQSZkDrtgeLtR45oFrIaBmq9wW7&size=770:433",
+        "gender": "female",
+        "country": "USA",
+        "social": {
+            "instagram": "https://www.instagram.com/billieeilish/",
+            "facebook": "https://www.facebook.com/billieeilish"
+        }
+    },
+    {
+        "_id": "614f621fc2998548463e247d",
+        "name": "Luis Fonsi",
+        "age": 43,
+        "salary": 650000,
+        "image": "https://gossipgist.com/uploads/23970/luis-fonsi.png",
+        "gender": "male",
+        "country": "Puerto Rico",
+        "social": {
+            "instagram": "https://www.instagram.com/luisfonsi/",
+            "facebook": "https://www.facebook.com/luisfonsimusic"
+        }
     }
 ]
