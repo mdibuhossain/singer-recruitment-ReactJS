@@ -24,6 +24,9 @@
 .social-icon{
     font-size: 20px;
 }
+.social-icon a{
+    color: rgba(26, 25, 25, 0.74);
+}
 .hire-btn{
     width: 100%;
     border: none;
