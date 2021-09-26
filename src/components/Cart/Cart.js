@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Singerlist from '../Singerlist/Singerlist';
 import './Cart.css';
@@ -7,8 +7,13 @@ import { faHeadphones } from '@fortawesome/free-solid-svg-icons';
 const Singericon = <FontAwesomeIcon icon={faHeadphones} />;
 
 const Cart = (props) => {
-    const [totalCost, setTotalCost] = useState(0);
     const cart = props.cart;
+    let totalCost = 0;
+    // console.log(cart);
+    for (const singer in cart) {
+        // console.log(cart[singer].salary);
+        totalCost += cart[singer].salary;
+    }
     return (
         <div className="text-center">
             <div>
