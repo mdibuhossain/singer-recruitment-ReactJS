@@ -2,8 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Singerlist from '../Singerlist/Singerlist';
 import './Cart.css';
 import { faHeadphones } from '@fortawesome/free-solid-svg-icons';
-import { deleteFromDb } from '../../utilities/fakedb';
-import { useState } from 'react';
 
 const Singericon = <FontAwesomeIcon icon={faHeadphones} />;
 
