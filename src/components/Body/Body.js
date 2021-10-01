@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Singer from '../Singer/Singer';
-import { addToDb, clearTheCart, getStoredCart } from '../../utilities/fakedb';
+import { addToDb, clearTheCart, deleteFromDb, getStoredCart } from '../../utilities/fakedb';
 import './Body.css';
 
 const Body = () => {
@@ -41,6 +41,12 @@ const Body = () => {
         clearTheCart();
         setCart([]);
     }
+    const removeHandler = (id) => {
+        deleteFromDb(id);
+        const updateSingerList = cart.filter(singer => singer._id !== id);
+        setCart(updateSingerList);
+    }
+
     return (
         <div className="container">
             <div className="row">
@@ -57,7 +63,7 @@ const Body = () => {
                     </div>
                 </div>
                 <div className="col-3">
-                    <Cart cart={cart} purchasedHandler={purchasedHandler}></Cart>
+                    <Cart cart={cart} removeHandler={removeHandler} purchasedHandler={purchasedHandler}></Cart>
                 </div>
             </div>
         </div>
